@@ -125,7 +125,8 @@ function buildNav(){
     ul.appendChild(li1);
     ul.appendChild(li2);
     ul.appendChild(li3);
-    navbarli.appendChild(ul);//Adding the list to the nav bar
+    //Adding the list to the nav bar
+    navbarli.appendChild(ul);
 }
 
 // Add class 'active' to section when near top of viewport
