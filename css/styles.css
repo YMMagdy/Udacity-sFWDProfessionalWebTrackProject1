@@ -65,13 +65,21 @@ section {
 
 /* Navigation Styles*/
 .navbar__menu ul {
+    display: flex;
     padding-left: 0;
-    margin: 0;
-    text-align: right;
+    margin: 0px;
+    text-align: center;
+    color:white;
+    background-color:#162B4E;
 }
 
 .navbar__menu li {
-    display: inline-block;
+    float:left;
+    padding-left: 0;
+    margin-right: 0px;
+    text-align: center;
+    color:white;
+    background-color:#162B4E;
 }
 
 .navbar__menu .menu__link {
@@ -79,13 +87,18 @@ section {
     padding: 1em;
     font-weight: bold;
     text-decoration: none;
-    color: #000;
+    color: white;
 }
 
 .navbar__menu .menu__link:hover {
-    background: #333;
-    color: #fff;
+    background: white;
+    color: #162B4E;
     transition: ease 0.3s all;
+}
+
+.navbar__menu .menu__link .your-active-class {
+    background: white;
+    color: #162B4E;
 }
 
 /* Header Styles */
